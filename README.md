@@ -8,25 +8,28 @@
   <h3 align="center">⭐Responsive Challenges⭐</h3>
 
   <p align="center">
-   <i>In this repository I will be practicing some fun code challenges.
-Hope you have fun with me!</i>
+   <i>In this repository I'll be practicing some cool coding projects.</i>
     <br />
-    <i>Your ol' pal Nathker</i>
+    <i>They're all made using html and css only.</i>
+    <i>These challenges are from 🔗<a href="https://devchallenges.io">devchallenges.io</a>.</i>
+    <br />
+    <i>Have fun! ✋</i>
+    
   </p>
 </div>
 
 ---
 
-#### - <a href="https://github.com/na7hk3r/responsive_challenges/tree/main/404-not-found-master">404 Not Found Challenge</a>
-#### - My Team Page
+#### - <a href="https://github.com/na7hk3r/responsive_challenges/tree/main/404-not-found-master">404 Not Found</a>
+#### - Team Page
 #### - Interior Consultant
 #### - Recipe Page
-#### - My Gallery
+#### - Gallery
 #### - Checkout Page
-#### - Edie Homepage
+#### - Homepage
 #### - Portfolio
 ---
-#### Check out other challenges from devchallenges.io:
+#### Other challenge repos:
 - Frontend Challenges (Coming next)
 - FullStack Challenges (Soon)
 
