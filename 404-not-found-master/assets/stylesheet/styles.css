@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  --primary: #333;
+  --secondary: #4f4f4f;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+}
+
+header {
+  height: 10vh;
+}
+
+header > p {
+  color: var(--primary);
+  font-family: "Inconsolata", monospace;
+  font-size: 1.3em;
+  font-weight: 700;
+  padding: 2rem;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  height: 80vh;
+  justify-content: center;
+  padding: 3rem;
+  width: 100vw;
+}
+
+.img-container {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.img-container > img {
+  animation: floatAnimation 3s ease infinite alternate;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
+  width: 100%;
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.text-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  width: 50vw;
+}
+
+.text-container > p {
+  color: var(--secondary);
+  font-size: 1.3em;
+}
+
+h1 {
+  color: var(--primary);
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -2.24px;
+  line-height: normal;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  height: 68px;
+  transition: 0.5s;
+  width: 216px;
+}
+
+button:hover {
+  background-color: var(--secondary);
+  transform: scale(1.1);
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  justify-content: center;
+  width: 100%;
+}
+
+footer > p {
+  color: var(--secondary);
+}
+
+a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        gap: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .img-container,
+    .text-container {
+        width: 100%;
+        align-items: center;
+    }
+    .text-container>p{
+        font-size: 1em;
+    }
+    button{
+        width: 60%;
+        height: 40px;
+        font-size: 70%;
+    }
+    footer {
+        font-size: 70%;
+    }
+}
