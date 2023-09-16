@@ -17,14 +17,14 @@ Hope you have fun with me!</i>
 
 ---
 
-#### - Day 1: 404 Not Found Challenge
-#### - Day 2: My Team Page
-#### - Day 3: Interior Consultant
-#### - Day 4: Recipe Page
-#### - Day 5: My Gallery
-#### - Day 6: Checkout Page
-#### - Day 7: Edie Homepage
-#### - Day 8: Portfolio
+#### - 404 Not Found Challenge
+#### - My Team Page
+#### - Interior Consultant
+#### - Recipe Page
+#### - My Gallery
+#### - Checkout Page
+#### - Edie Homepage
+#### - Portfolio
 ---
 #### Check out other challenges from devchallenges.io:
 - Frontend Challenges (Coming next)
