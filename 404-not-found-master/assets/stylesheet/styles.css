@@ -150,3 +150,12 @@ a {
         font-size: 70%;
     }
 }
+
+@media screen and (min-width: 980px) {
+    .img-container>img {
+        width: 70%;
+    }
+    .text-container {
+        width: 35vw;
+    }
+}
