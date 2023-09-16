@@ -17,7 +17,7 @@ Hope you have fun with me!</i>
 
 ---
 
-#### - 404 Not Found Challenge
+#### - <a href="https://github.com/na7hk3r/responsive_challenges/tree/main/404-not-found-master">404 Not Found Challenge</a>
 #### - My Team Page
 #### - Interior Consultant
 #### - Recipe Page
@@ -29,3 +29,10 @@ Hope you have fun with me!</i>
 #### Check out other challenges from devchallenges.io:
 - Frontend Challenges (Coming next)
 - FullStack Challenges (Soon)
+
+ <div align="center">
+  <a href="https://github.com/na7hk3r/responsive_challenges">
+    <img src="https://github.com/na7hk3r/responsive_challenges/assets/104522465/a28e23e8-d64b-4e43-898e-64d11f2077ac" alt="Logo-ntkr" height="200">
+  </a>
+
+
