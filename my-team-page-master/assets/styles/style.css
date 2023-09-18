@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif; */
+
+/**  Figma file:     */
+/* https://www.figma.com/file/F8d1qJsorEdY47N74HLxQ4/team-page-challenge?node-id=1%3A10&mode=dev */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'PT Serif', serif;
+    gap: 20px;
+    padding: 3em;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title,
+.who-we{
+    width: 50vw;
+}
+
+.photo-container {
+    display: flex;
+    width: 100vw;
+}
+
+.photo-container > img {
+    margin: 10px;
+    padding: 10px;
+}
